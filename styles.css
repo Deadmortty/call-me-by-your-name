@@ -66,8 +66,14 @@ ul a {
     color: rgba(134, 173, 89, 0.8);
     font-size: 18px;
     font-weight: 570;
+    transition: font-size 0.4s;
 }
 
 ul a:hover {
-    font-weight: bold;
+    font-size: 30px;
+}
+
+
+ul a:visited {
+    color:  rgba(134, 173, 89, 0.8);
 }
